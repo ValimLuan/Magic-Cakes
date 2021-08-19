@@ -1,0 +1,280 @@
+/* Decoração da Navbar */
+
+.navbar {
+    background-color: black;
+    height: 55px;
+    width: 100%;
+}
+
+
+li {
+    color: white;
+    margin-top: 15px;
+    margin-left: 160px;
+}
+
+.nav-lista {
+    display: flex;
+}
+
+
+a {
+    color: black;
+}
+
+/* Tamanho dos conteudos */
+
+.conteudo1,
+.conteudo2,
+.conteudo3,
+.conteudo4,
+.conteudo5,
+.conteudo6,
+.conteudo7 {
+    height: 600px;
+    width: 100%;
+    background-color: gray;
+}
+
+/* Conteudo 1 */
+.conteudo1 {
+    background-image: url(./bolo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteudo1 h1 {
+    text-align: center;
+    font-size: 100px;
+    padding: 50px;
+    text-shadow: 3px 2px white
+}
+
+/* Conteudo 2 */
+.conteudo2 {
+    background-image: url(./Tijolos\ brancos.jpg);
+}
+
+/* Conteudo 3 */
+.conteudo3 {
+    background-image: url(./Tijolos\ brancos.jpg);
+}
+
+/* Conteudo 4 */
+.conteudo4 {
+    background-color: palevioletred;
+
+}
+
+.linha {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+    padding-top: 60px;
+
+}
+
+.linha2 {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+
+}
+
+.linha3 {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.card {
+    height: 430px;
+    width: 278px;
+    background-color: palevioletred;
+}
+
+.card-img {
+    height: 60%;
+    width: 100%;
+    background-color: saddlebrown;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(./Bolo\ florido.PNG);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.card-text {
+    height: 40%;
+    width: 100%;
+    background-color: pink;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* Conteudo 5 */
+.conteudo5 {
+    background-image: url(./Tijolos\ brancos.jpg);
+    height: 830px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 5px black solid
+}
+
+td,
+th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid pink;
+    font-family: 'Oswald', sans-serif;
+}
+
+tr:hover {
+    background-color: papayawhip;
+
+}
+
+/* Conteudo 6 */
+.conteudo6 {
+    background: rgb(245, 244, 250);
+    background: linear-gradient(180deg, rgba(245, 244, 250, 1) 8%, rgba(219, 112, 147, 1) 38%);
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.conteudo6 ul {
+    text-align: center;
+
+}
+
+.conteudo6 li {
+    color: rgb(12, 5, 5);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Conteudo 7*/
+
+.conteudo7 {
+    height: 100px;
+    width: 100%;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Tamanho dos subconteudos */
+
+
+/* Conteudo 2 */
+.subconteudo1 {
+    background-color: pink;
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    right: 1100px;
+    top: 760px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subconteudo2 {
+    background-color: pink;
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    left: 1100px;
+    top: 760px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+/* Conteudo 3 */
+
+.subconteudo3 {
+    background-color: pink;
+    height: 300px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1450px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto1 {
+    text-align: center;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.733);
+}
+
+.texto2 {
+    text-align: center;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.733);
+
+}
+
+#texto3 {
+    text-align: center;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.733);
+}
+
+#texto4 {
+    text-align: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.418);
+}
+
+
+/* Decoração do formulario */
+input[type=text],
+select {
+    width: 90%;
+    padding: 10px 18px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 75%;
+    background-color: palevioletred;
+    color: rgb(12, 5, 5);
+    padding: 12px 18px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(218, 102, 140, 0.678);
+
+}
+
+.bolo {
+    text-align: center;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.733);
+
+
+
+}

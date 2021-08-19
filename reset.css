@@ -1,0 +1,21 @@
+body {
+        font-family: 'Style Script', cursive;
+        font-size: 30px;
+        background-image: url(./);
+}
+
+
+* {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+        list-style: none;
+        
+}
+
